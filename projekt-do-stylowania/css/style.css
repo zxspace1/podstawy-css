@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+#header {
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+nav#menu > ul > li.menu-item {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+nav#menu > ul > li.menu-item > a {
+    color: azure;
+    
+}
