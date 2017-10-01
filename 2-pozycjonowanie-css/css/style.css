@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+#zielony {
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+#czerwony {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+#niebieski {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
