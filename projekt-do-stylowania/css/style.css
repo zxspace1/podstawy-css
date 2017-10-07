@@ -1,22 +1,24 @@
 body {
-    background-color: black;
+    margin: 0;
+    font-family: 'Lato',sans-serif;
 }
-#header {
-    color: azure;
+/* nav */
+#menu {
+    background-color: #000000;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-
-nav#menu > ul > li.menu-item {
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-nav#menu > ul > li.menu-item > a {
-    color: azure;
+    height: 50px;
+    }
     
+#menu ul .menu-item a{
+    color: #fffff;
+    text-decoration: none;
 }
+/*header*/
+#header {
+    position: relative;
+    text-align: center;
+}
+#header img{
+    width: 100%;
+}
+/* jeżeli zmiueniamy pozycję ze stycznej na absolut/fixed należy pamiętać aby temu elemntowi
